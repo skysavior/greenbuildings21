@@ -1,0 +1,456 @@
+Proj   "Keeling Apartments 12.4.20"  
+   ProgramVersion = "eQUEST 3.65.7175"
+   BDBaseVersion = 25
+   ProductCode = "eQUEST"
+   WeatherFile = "CZ2\CZ07.bin"
+   CreateDate = 1606953410
+   ModDate = 1607127598
+   LibraryFile = "eQ_Lib.dat"
+   ComplianceRules = "CEC Title 24, August 2009 - v1 (Title24-08.bin)"
+   InterfaceMode = 0
+   AllowWizard = 1
+   NotProjFile = "Keeling Apartments 12.4.20"
+   InputUnitsType = "English"
+   OutputUnitsType = "English"
+   PreviousName = "Keeling Apartments"
+   ProjTreeType[1] = 0
+   ProjTreeID[1] = 10000
+   ProjTreeLabel[1] = "Project:  'Keeling Apartments'"
+   ..
+
+MainWiz   "Keeling Apartments 12.4.20"  
+   ProductCode = "eQUEST"
+   WizardType = "Schematic Design"
+   DebugID = 0
+   AllowCustWinDoor = 1
+   ScreenIDArrIdx = 37
+   ScreenIDArrID = 180
+   Compliance = "California Title 24"
+   State = "San Diego Area (CZ07)"
+   Location = "La Mesa"
+   ElecUtility = "SDG&E (CA)"
+   GasUtility = "SCG (CA)"
+   BldgType = "Multifamily, High-Rise (interior entries)"
+   A901BldgType = "Multifamily"
+   AnalysisYear = 2020
+   NumSeasons = 2
+   NumDatePeriods[1] = 3
+   SeasonLabels[1] = "in session"
+   SeasonLabels[2] = "breaks (unoccupied)"
+   SecSeasStartMoDa[1] = 615
+   SecSeasStartMoDa[2] = 322
+   SecSeasStartMoDa[3] = 1217
+   SecSeasEndMoDa[1] = 920
+   SecSeasEndMoDa[2] = 328
+   SecSeasEndMoDa[3] = 1231
+   ActiveHoliday = "New Year's Eve"
+   HolidayChecked[10] = 1
+   HolidayChecked[16] = 1
+   HolidayChecked[17] = 1
+   HolidayChecked[20] = 1
+   Address = "Keeling Apartments, San Diego CA 92161"
+   PermitScope = "Envelope/Mechanical/Lighting"
+   BuildingType = "High-Rise Residential"
+   ConsPhase = "Alteration"
+   DocuAuthor = "Jordan Locke and Guillermo Nogueira"
+   EnvDesigner = "Jordan Locke and Guillermo Nogueira"
+   LtgDesigner = "Jordan Locke and Guillermo Nogueira"
+   MechDesigner = "Jordan Locke and Guillermo Nogueira"
+   HVACDefaulted = 1
+   ..
+
+ShellWiz   "Bldg Envelope & Loads 1"  
+   ModelEnduse[3] = 1
+   ModelEnduse[13] = 1
+   BldgType = "Multifamily, High-Rise (interior entries)"
+   GrossArea = 153891
+   FlrsAboveGrade = 10
+   Footprint = "'U' Shape"
+   Orientation = "East"
+   X[1] = 177
+   X[2] = 55
+   X[3] = 55
+   Y[1] = 115
+   Y[2] = 115
+   Y[3] = 35
+   ZoningPattern = "Perimeter / Core"
+   PerimDepth = 7
+   NumMCZnGrps = 0
+   DiagLink = "Bldg Envelope & Loads 1 Diag Data"
+   VertIntConsType = "Frame"
+   IntFlrConsType = "8 in. Concrete"
+   IntFlrInsType = "- no surface finish -"
+   GrndFlrExposure = "Earth Contact"
+   GrndFlrConsType = "8 in. Concrete"
+   ZoningCurrent = 1
+   AdiabaticCurrent = 1
+   ZoneGroupsOK = 1
+   DfltZnGrpName[1] = "Underground Areas"
+   DfltZnGrpName[2] = "Ground Floor Core"
+   DfltZnGrpName[3] = "Ground Floor Perimeter"
+   DfltZnGrpName[4] = "Typical Floor(s) Core"
+   DfltZnGrpName[5] = "Typical Floor(s) Perimeter"
+   DfltZnGrpName[6] = "Top Floor Core"
+   DfltZnGrpName[7] = "Top Floor Perimeter"
+   DfltZnGrpName[8] = "Data Center"
+   CustomFootprint = 0
+   CustomRoofZoning = -1
+   ActiveRoofZoneIdx = 1
+   LastFootprint = 5
+   LastX[1] = 177
+   LastX[2] = 55
+   LastX[3] = 55
+   LastY[1] = 115
+   LastY[2] = 115
+   LastY[3] = 35
+   OverhangOption = "All Windows"
+   OverhangDepth[1] = 1.75
+   OverhangDepth[2] = 1.75
+   OverhangDepth[3] = 1.75
+   OverhangDepth[4] = 1.75
+   GTCCategory[1] = "Double Low-E"
+   WindowHeight[1] = 5.3
+   WinSillHeight[1] = 2
+   WinAreaSpecMethod = "Percent of Gross Wall Area (floor to floor)"
+   PercentGlassI1[1] = 22.5
+   WinShadeType = "Roller Shade - Opaque - Light Color"
+   WShdOccPctClsd[1] = 50
+   WShdOccPctClsd[2] = 50
+   WShdOccPctClsd[3] = 50
+   WShdOccPctClsd[4] = 50
+   WShdUnoccPctClsd[1] = 50
+   WShdUnoccPctClsd[2] = 50
+   WShdUnoccPctClsd[3] = 50
+   WShdUnoccPctClsd[4] = 50
+   DoorType = ( "Opaque", "Sliding/Atrium Glass", "Glass" )
+   NumExtDoors1 = ( 4, 0, 3 )
+   NumExtDoors2[1] = 24
+   NumExtDoors2[2] = 0
+   NumExtDoors3 = ( 97, 1, 4 )
+   NumExtDoors4[1] = 4
+   DGTCCategory[2] = "- specify properties -"
+   DoorHeight[2] = 8
+   WindowFinOption = "All Windows"
+   WindowFinDepth[1] = 0.4
+   WindowFinDepth[2] = 0.4
+   WindowFinDepth[3] = 0.4
+   WindowFinDepth[4] = 0.4
+   WindowOverDist = 0.2
+   WindowFinDist = 0.4
+   TypWindowWidth[1] = 2.5
+   ModelOverhang[1] = 1
+   SkyZonesCurrent = 1
+   SkyltZones[1] = 1
+   SkyltZones[2] = 1
+   SkyltZones[3] = 1
+   SkyltZones[4] = 1
+   SkyltZones[5] = 1
+   SkyltZones[6] = 1
+   SkyltZones[7] = 1
+   SkyltZones[8] = 1
+   SkyltZones[9] = 1
+   SkyPosCurrent = 1
+   DayZonesCurrent = ( 1, 1, 1 )
+   DayltZones[1] = 1
+   DayltZones[2] = 1
+   DayltZones[3] = 1
+   DayltZones[4] = 1
+   DayltZones[5] = 1
+   DayltZones[6] = 1
+   DayltZones[7] = 1
+   DayltZones[8] = 1
+   DayltZones[9] = 0
+   DayltZones[201] = 1
+   DayltZones[202] = 1
+   DayltZones[203] = 1
+   DayltZones[204] = 1
+   DayltZones[205] = 1
+   DayltZones[206] = 1
+   DayltZones[207] = 1
+   DayltZones[208] = 1
+   DayltZones[209] = 0
+   DayltZones[401] = 1
+   DayltZones[402] = 1
+   DayltZones[403] = 1
+   DayltZones[404] = 1
+   DayltZones[405] = 1
+   DayltZones[406] = 1
+   DayltZones[407] = 1
+   DayltZones[408] = 1
+   DayltZones[409] = 0
+   WinDoorCurrent = 1
+   DetailsCurrent = ( 1, 1, 1 )
+   BDLNumDayltCtrls[1] = 0
+   BDLNumDayltCtrls[2] = 0
+   BDLNumDayltCtrls[3] = 0
+   BDLNumDayltCtrls[4] = 0
+   BDLNumDayltCtrls[5] = 0
+   BDLNumDayltCtrls[6] = 0
+   BDLNumDayltCtrls[7] = 0
+   BDLNumDayltCtrls[8] = 0
+   BDLNumDayltCtrls[9] = 0
+   BDLNumDayltCtrls[201] = 0
+   BDLNumDayltCtrls[202] = 0
+   BDLNumDayltCtrls[203] = 0
+   BDLNumDayltCtrls[204] = 0
+   BDLNumDayltCtrls[205] = 0
+   BDLNumDayltCtrls[206] = 0
+   BDLNumDayltCtrls[207] = 0
+   BDLNumDayltCtrls[208] = 0
+   BDLNumDayltCtrls[209] = 0
+   BDLNumDayltCtrls[401] = 0
+   BDLNumDayltCtrls[402] = 0
+   BDLNumDayltCtrls[403] = 0
+   BDLNumDayltCtrls[404] = 0
+   BDLNumDayltCtrls[405] = 0
+   BDLNumDayltCtrls[406] = 0
+   BDLNumDayltCtrls[407] = 0
+   BDLNumDayltCtrls[408] = 0
+   BDLNumDayltCtrls[409] = 0
+   ActAreaType[1] = "Residential (Multifamily Dwelling Unit)"
+   ActAreaType[2] = "Conference Room"
+   ActAreaType[5] = "Exercising Centers and Gymnasium"
+   PercentArea[1] = 92.14
+   PercentArea[2] = 3.51
+   PercentArea[3] = 0.55
+   PercentArea[4] = 2.93
+   PercentArea[5] = 0.88
+   PrimFirstFloor[3] = 1
+   PrimFirstFloor[5] = 1
+   PrimarilyCore[1] = 1
+   PrimarilyCore[3] = 1
+   PrimarilyCore[5] = 1
+   PrimarilyPerim[1] = 0
+   LaundryLocation = "Common Area"
+   LndryUnitsPerFlr = 13
+   SeasonType[1] = "24-Hour Operation, Typical Use"
+   SeasonType[2] = "Closed"
+   OpenSeas1[1] = "Open 24 hrs."
+   OpenSeas1[6] = "Open 24 hrs."
+   OccShape[1] = "Occup Profile (S1)"
+   OccShape[2] = "Occup Profile (S2)"
+   ILShape[1] = "InsLtg Profile (S1)"
+   ILShape[2] = "InsLtg Profile (S2)"
+   ILElecIntens[1] = 0
+   ILElecIntens[2] = 0
+   ILElecIntens[3] = 0
+   ILElecIntens[4] = 0
+   ILElecIntens[5] = 0
+   ELDayShapes = ( "ExtLtg DayShape (Jan)", "ExtLtg DayShape (Feb)", 
+                   "ExtLtg DayShape (Mar)", "ExtLtg DayShape (Apr)", 
+                   "ExtLtg DayShape (May)", "ExtLtg DayShape (Jun)", 
+                   "ExtLtg DayShape (Jul)", "ExtLtg DayShape (Aug)", 
+                   "ExtLtg DayShape (Sep)", "ExtLtg DayShape (Oct)", 
+                   "ExtLtg DayShape (Nov)", "ExtLtg DayShape (Dec)" )
+   OEShape[1] = "OffEq Profile (S1)"
+   OEShape[2] = "OffEq Profile (S2)"
+   OEElecIntens[1] = 0
+   CEShape[1] = "CookEq Profile (S1)"
+   CEShape[2] = "CookEq Profile (S2)"
+   CEDivEIntens[1] = 690
+   CEDivGIntens[1] = 0
+   MiscShape[1] = "Misc Profile (S1)"
+   MiscShape[2] = "Misc Profile (S2)"
+   DHWShape[1] = "DHW Profile (S1)"
+   DHWShape[2] = "DHW Profile (S2)"
+   TLShape[1] = "TskLtg Profile (S1)"
+   TLShape[2] = "TskLtg Profile (S2)"
+   TLElecIntens[1] = 0
+   SCRShape[1] = "S-C Refrig Profile (S1)"
+   SCRShape[2] = "S-C Refrig Profile (S2)"
+   DaylitAreaCurrent = ( 1, 1, 1 )
+   RoofZoneErrorCode = 4
+   ..
+
+ShapeWiz   "InsLtg Profile (S1)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jan)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Feb)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Mar)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Apr)"  
+   ..
+
+DayShape   "ExtLtg DayShape (May)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jun)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jul)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Aug)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Sep)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Oct)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Nov)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Dec)"  
+   ..
+
+ShapeWiz   "CookEq Profile (S1)"  
+   ..
+
+ShapeWiz   "Misc Profile (S1)"  
+   ..
+
+ShapeWiz   "DHW Profile (S1)"  
+   ..
+
+ShapeWiz   "Occup Profile (S1)"  
+   ..
+
+ShapeWiz   "S-C Refrig Profile (S1)"  
+   ..
+
+ZnGrpWiz   "Ground Floor Core"  
+   ShortName = "GndCor"
+   ..
+
+ZnGrpWiz   "Ground Floor Perimeter"  
+   ShortName = "GndPrm"
+   ..
+
+ZnGrpWiz   "Typical Floor(s) Core"  
+   ShortName = "TypCor"
+   ..
+
+ZnGrpWiz   "Typical Floor(s) Perimeter"  
+   ShortName = "TypPrm"
+   ..
+
+ZnGrpWiz   "Top Floor Core"  
+   ShortName = "TopCor"
+   ..
+
+ZnGrpWiz   "Top Floor Perimeter"  
+   ShortName = "TopPrm"
+   ..
+
+ShapeWiz   "InsLtg Profile (S2)"  
+   ..
+
+ShapeWiz   "CookEq Profile (S2)"  
+   ..
+
+ShapeWiz   "Misc Profile (S2)"  
+   ..
+
+ShapeWiz   "DHW Profile (S2)"  
+   ..
+
+ShapeWiz   "Occup Profile (S2)"  
+   ..
+
+ShapeWiz   "S-C Refrig Profile (S2)"  
+   ..
+
+ShapeWiz   "TskLtg Profile (S1)"  
+   ..
+
+ShapeWiz   "TskLtg Profile (S2)"  
+   ..
+
+ShapeWiz   "OffEq Profile (S1)"  
+   ..
+
+ShapeWiz   "OffEq Profile (S2)"  
+   ..
+
+DiagData   "Bldg Envelope & Loads 1 Diag Data"  
+   PolyWndGridRes = 1
+   PolyWndLwrLeftX = -13
+   PolyWndLwrLeftY = -17
+   PolyWndWidth = 218.5
+   CADFileComp = "keeling apts - DWG 2"
+   ..
+
+CADFile   "keeling apts - DWG"  
+   ..
+
+CADFile   "keeling apts - DWG 2"  
+   ..
+
+HVACWiz   "HVAC System 1"  
+   CoolSource[1] = "No Cooling"
+   HeatSource[1] = "Baseboards Only"
+   ..
+
+DXCWWiz   "Water-Cooled DX System"  
+   ..
+
+WSECWWiz   "Wtr-Side Econo System"  
+   ..
+
+WLHPWiz   "WSHP System"  
+   ..
+
+GSHPWiz   "GSHP System"  
+   ..
+
+PrimWiz   "Primary HVAC Plant"  
+   ..
+
+DHWWiz   "DHW Plant 1"  
+   ResDHWCircLoopName = "DHW Plant 1 Res Loop (1)"
+   ..
+
+FacetColor   "By Wall Type"  
+   FacetType = "Walls"
+   ColorOption = "By Wall Type"
+   ..
+
+FacetColor   "By Construction"  
+   FacetType = "Walls"
+   ColorOption = "By Construction"
+   ..
+
+FacetColor   "Uniform"  
+   FacetType = "Windows"
+   ColorOption = "Uniform"
+   ..
+
+FacetColor   "By Glass Type"  
+   FacetType = "Windows"
+   ColorOption = "By Glass Type"
+   ..
+
+Light3D   "Light3D - Default"  
+   Type = "Default"
+   ..
+
+Light3D   "Light3D - User1"  
+   Type = "User Defined 1"
+   ..
+
+Light3D   "Light3D - User2"  
+   Type = "User Defined 2"
+   ..
+
+Light3D   "Light3D - User3"  
+   Type = "User Defined 3"
+   ..
+
+Light3D   "Light3D - User4"  
+   Type = "User Defined 4"
+   ..
+
+Light3D   "Light3D - User5"  
+   Type = "User Defined 5"
+   ..
+
+
+END_OF_FILE
