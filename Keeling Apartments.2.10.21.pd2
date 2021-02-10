@@ -1,0 +1,270 @@
+Proj   "Keeling Apartments"  
+   ProgramVersion = "eQUEST 3.65.7175"
+   BDBaseVersion = 25
+   ProductCode = "eQUEST"
+   WeatherFile = "CZ2\CZ07.bin"
+   CreateDate = 1612053859
+   ModDate = 1612990758
+   LibraryFile = "eQ_Lib.dat"
+   ComplianceRules = "CEC Title 24, August 2009 - v1 (Title24-08.bin)"
+   InterfaceMode = 0
+   AllowWizard = 1
+   NotProjFile = "Keeling Apartments"
+   InputUnitsType = "English"
+   OutputUnitsType = "English"
+   ProjTreeType[1] = 0
+   ProjTreeID[1] = 10000
+   ProjTreeLabel[1] = "Project:  'Keeling Apartments'"
+   ..
+
+MainWiz   "Keeling Apartments"  
+   ProductCode = "eQUEST"
+   WizardType = "Schematic Design"
+   DebugID = 0
+   AllowCustWinDoor = 1
+   ScreenIDArrIdx = 48
+   ScreenIDArrID = 242
+   Compliance = "California Title 24"
+   State = "San Diego Area (CZ07)"
+   Location = "La Mesa"
+   Jurisdiction = "CA Title24"
+   ElecUtility = "SDG&E (CA)"
+   GasUtility = "SDG&E (CA)"
+   BldgType = "Multifamily, High-Rise (interior entries)"
+   A901BldgType = "Multifamily"
+   BldgSeasons = "Typical Use Throughout Year"
+   Address = "Keeling Apts, SD CA 92161"
+   ConsPhase = "Alteration"
+   HVACDefaulted = 1
+   ..
+
+ShellWiz   "Bldg Envelope & Loads 1"  
+   BldgType = "Multifamily, High-Rise (interior entries)"
+   GrossArea = 153891
+   FlrsAboveGrade = 10
+   Footprint = "Rectangle"
+   NumMCZnGrps = 0
+   DiagLink = "Bldg Envelope & Loads 1 Diag Data"
+   ZoningCurrent = 1
+   AdiabaticCurrent = 1
+   ZoneGroupsOK = 1
+   DfltZnGrpName[1] = "Underground Areas"
+   DfltZnGrpName[2] = "Ground Floor Core"
+   DfltZnGrpName[3] = "Ground Floor Perimeter"
+   DfltZnGrpName[4] = "Typical Floor(s) Core"
+   DfltZnGrpName[5] = "Typical Floor(s) Perimeter"
+   DfltZnGrpName[6] = "Top Floor Core"
+   DfltZnGrpName[7] = "Top Floor Perimeter"
+   DfltZnGrpName[8] = "Data Center"
+   CustomRoofZoning = -1
+   LastFootprint = 1
+   OverhangOption = "All Windows"
+   WinShadeType = "Roller Shade - Opaque - Light Color"
+   WindowOverDist = 0.5
+   SkyltOption[1] = 0
+   SkyZonesCurrent = 1
+   SkyltZones[1] = 1
+   SkyltZones[2] = 1
+   SkyltZones[3] = 1
+   SkyltZones[4] = 1
+   SkyltZones[5] = 1
+   SkyPosCurrent = 1
+   DayZonesCurrent = ( 1, 1, 1 )
+   DayltZones[1] = 1
+   DayltZones[2] = 1
+   DayltZones[3] = 1
+   DayltZones[4] = 1
+   DayltZones[5] = 0
+   DayltZones[201] = 1
+   DayltZones[202] = 1
+   DayltZones[203] = 1
+   DayltZones[204] = 1
+   DayltZones[205] = 0
+   DayltZones[401] = 1
+   DayltZones[402] = 1
+   DayltZones[403] = 1
+   DayltZones[404] = 1
+   DayltZones[405] = 0
+   WinDoorCurrent = 1
+   DetailsCurrent = ( 1, 1, 1 )
+   BDLNumDayltCtrls[1] = 0
+   BDLNumDayltCtrls[2] = 0
+   BDLNumDayltCtrls[3] = 0
+   BDLNumDayltCtrls[4] = 0
+   BDLNumDayltCtrls[5] = 0
+   BDLNumDayltCtrls[201] = 0
+   BDLNumDayltCtrls[202] = 0
+   BDLNumDayltCtrls[203] = 0
+   BDLNumDayltCtrls[204] = 0
+   BDLNumDayltCtrls[205] = 0
+   BDLNumDayltCtrls[401] = 0
+   BDLNumDayltCtrls[402] = 0
+   BDLNumDayltCtrls[403] = 0
+   BDLNumDayltCtrls[404] = 0
+   BDLNumDayltCtrls[405] = 0
+   OccShape[1] = "Occup Profile (S1)"
+   ILShape[1] = "InsLtg Profile (S1)"
+   ELDayShapes = ( "ExtLtg DayShape (Jan)", "ExtLtg DayShape (Feb)", 
+                   "ExtLtg DayShape (Mar)", "ExtLtg DayShape (Apr)", 
+                   "ExtLtg DayShape (May)", "ExtLtg DayShape (Jun)", 
+                   "ExtLtg DayShape (Jul)", "ExtLtg DayShape (Aug)", 
+                   "ExtLtg DayShape (Sep)", "ExtLtg DayShape (Oct)", 
+                   "ExtLtg DayShape (Nov)", "ExtLtg DayShape (Dec)" )
+   CEShape[1] = "CookEq Profile (S1)"
+   MiscShape[1] = "Misc Profile (S1)"
+   DHWShape[1] = "DHW Profile (S1)"
+   SCRShape[1] = "S-C Refrig Profile (S1)"
+   DaylitAreaCurrent = ( 1, 1, 1 )
+   RoofZoneErrorCode = 4
+   ..
+
+ShapeWiz   "InsLtg Profile (S1)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jan)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Feb)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Mar)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Apr)"  
+   ..
+
+DayShape   "ExtLtg DayShape (May)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jun)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jul)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Aug)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Sep)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Oct)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Nov)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Dec)"  
+   ..
+
+ShapeWiz   "CookEq Profile (S1)"  
+   ..
+
+ShapeWiz   "Misc Profile (S1)"  
+   ..
+
+ShapeWiz   "DHW Profile (S1)"  
+   ..
+
+ShapeWiz   "Occup Profile (S1)"  
+   ..
+
+ShapeWiz   "S-C Refrig Profile (S1)"  
+   ..
+
+ZnGrpWiz   "Ground Floor Core"  
+   ShortName = "GndCor"
+   ..
+
+ZnGrpWiz   "Ground Floor Perimeter"  
+   ShortName = "GndPrm"
+   ..
+
+ZnGrpWiz   "Typical Floor(s) Core"  
+   ShortName = "TypCor"
+   ..
+
+ZnGrpWiz   "Typical Floor(s) Perimeter"  
+   ShortName = "TypPrm"
+   ..
+
+ZnGrpWiz   "Top Floor Core"  
+   ShortName = "TopCor"
+   ..
+
+ZnGrpWiz   "Top Floor Perimeter"  
+   ShortName = "TopPrm"
+   ..
+
+DiagData   "Bldg Envelope & Loads 1 Diag Data"  
+   ..
+
+HVACWiz   "HVAC System 1"  
+   CoolSource[1] = "No Cooling"
+   HeatSource[1] = "No Heating"
+   ..
+
+DXCWWiz   "Water-Cooled DX System"  
+   ..
+
+WSECWWiz   "Wtr-Side Econo System"  
+   ..
+
+WLHPWiz   "WSHP System"  
+   ..
+
+GSHPWiz   "GSHP System"  
+   ..
+
+PrimWiz   "Primary HVAC Plant"  
+   ..
+
+DHWWiz   "DHW Plant 1"  
+   ..
+
+FacetColor   "By Wall Type"  
+   FacetType = "Walls"
+   ColorOption = "By Wall Type"
+   ..
+
+FacetColor   "By Construction"  
+   FacetType = "Walls"
+   ColorOption = "By Construction"
+   ..
+
+FacetColor   "Uniform"  
+   FacetType = "Windows"
+   ColorOption = "Uniform"
+   ..
+
+FacetColor   "By Glass Type"  
+   FacetType = "Windows"
+   ColorOption = "By Glass Type"
+   ..
+
+Light3D   "Light3D - Default"  
+   Type = "Default"
+   ..
+
+Light3D   "Light3D - User1"  
+   Type = "User Defined 1"
+   ..
+
+Light3D   "Light3D - User2"  
+   Type = "User Defined 2"
+   ..
+
+Light3D   "Light3D - User3"  
+   Type = "User Defined 3"
+   ..
+
+Light3D   "Light3D - User4"  
+   Type = "User Defined 4"
+   ..
+
+Light3D   "Light3D - User5"  
+   Type = "User Defined 5"
+   ..
+
+
+END_OF_FILE
