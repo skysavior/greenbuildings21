@@ -1,0 +1,159 @@
+Proj   "Project"  
+   ProgramVersion = "eQUEST 3.65.7175"
+   BDBaseVersion = 25
+   ProductCode = "eQUEST"
+   WeatherFile = ""
+   CreateDate = 1629582726
+   ModDate = 1629582726
+   InterfaceMode = 0
+   AllowWizard = 1
+   InputUnitsType = "English"
+   OutputUnitsType = "English"
+   ..
+
+MainWiz   "Project 1"  
+   ProductCode = "eQUEST"
+   WizardType = "Schematic Design"
+   DebugID = 0
+   AllowCustWinDoor = 1
+   ScreenIDArrIdx = 6
+   ScreenIDArrID = 50
+   State = "Los Angeles Area (CZ06)"
+   Location = "Los Angeles AP"
+   HVACDefaulted = 1
+   ..
+
+ShellWiz   "Bldg Envelope & Loads 1"  
+   FlrToFlr = 16
+   FlrToCeiling = 14
+   NumMCZnGrps = 0
+   DiagLink = "Bldg Envelope & Loads 1 Diag Data"
+   RoofConsType = "8 in. Concrete"
+   RoofFinish = "Aluminum"
+   VertExtConsType = "12 in. HW Concrete"
+   VertExtBrdInsType = "3 in. polystyrene (R-12)"
+   VertExtIntInsType = "R-13 mtl furred insul"
+   VertExtColor = "uncolored"
+   CeilingInsType = "- no ceiling insulation -"
+   IntFlrInsType = "Ceramic/Stone Tile"
+   IntFlrSecInsType = "2 in. polyisocyanurate (R-14)"
+   GrndFlrExposure = "Over Crawl Space"
+   GrndFlrSecInsType = "- no surface finish -"
+   GrndFlrConcCap = "2 in. LW Concrete"
+   ZoningCurrent = 1
+   AdiabaticCurrent = 1
+   ZoneGroupsOK = 1
+   DfltZnGrpName[1] = "Underground Areas"
+   DfltZnGrpName[2] = "Ground Floor Core"
+   DfltZnGrpName[3] = "Ground Floor Perimeter"
+   DfltZnGrpName[4] = "Typical Floor(s) Core"
+   DfltZnGrpName[5] = "Typical Floor(s) Perimeter"
+   DfltZnGrpName[6] = "Top Floor Core"
+   DfltZnGrpName[7] = "Top Floor Perimeter"
+   DfltZnGrpName[8] = "Data Center"
+   CustomRoofZoning = -1
+   LastFootprint = 1
+   GTCCategory[1] = "Double Clr/Tint"
+   GTCCategory[2] = "Double Clr/Tint"
+   GTCCategory[3] = "Double Clr/Tint"
+   GlassTypeCode[2] = "Double Clear 1/4in, 1/2in Air (2004)"
+   WindowHeight[1] = 8.833
+   WindowHeight[2] = 7
+   WindowHeight[3] = 6.5833
+   WinSillHeight[1] = 2.5
+   WinSillHeight[2] = 2.5
+   WinSillHeight[3] = 2.5
+   WinFrameType[1] = "Alum w/ Brk, Oper, Ins Spacer"
+   WinFrameType[2] = "Alum w/ Brk, Oper, Ins Spacer"
+   WinFrameType[3] = "Alum w/ Brk, Oper, Ins Spacer"
+   WinFrameWidth[1] = 2
+   WinFrameWidth[2] = 2
+   WinFrameWidth[3] = 2
+   DoorType[1] = "Opaque"
+   DoorType[2] = "- select another -"
+   NumExtDoors1[1] = 28
+   NumExtDoors2[1] = 28
+   NumExtDoors3[1] = 27
+   NumExtDoors4[1] = 27
+   TypWindowWidth[1] = 3.167
+   TypWindowWidth[2] = 3.17
+   TypWindowWidth[3] = 3.333
+   SkyZonesCurrent = 1
+   SkyltZones[1] = 1
+   SkyltZones[2] = 1
+   SkyltZones[3] = 1
+   SkyltZones[4] = 1
+   SkyltZones[5] = 1
+   SkyPosCurrent = 1
+   DayZonesCurrent[1] = 1
+   DayZonesCurrent[3] = 1
+   DayltZones[1] = 1
+   DayltZones[2] = 1
+   DayltZones[3] = 1
+   DayltZones[4] = 1
+   DayltZones[5] = 0
+   DayltZones[401] = 1
+   DayltZones[402] = 1
+   DayltZones[403] = 1
+   DayltZones[404] = 1
+   DayltZones[405] = 0
+   WinDoorCurrent = 1
+   DetailsCurrent[1] = 1
+   DetailsCurrent[3] = 1
+   BDLNumDayltCtrls[1] = 0
+   BDLNumDayltCtrls[2] = 0
+   BDLNumDayltCtrls[3] = 0
+   BDLNumDayltCtrls[4] = 0
+   BDLNumDayltCtrls[5] = 0
+   BDLNumDayltCtrls[401] = 0
+   BDLNumDayltCtrls[402] = 0
+   BDLNumDayltCtrls[403] = 0
+   BDLNumDayltCtrls[404] = 0
+   BDLNumDayltCtrls[405] = 0
+   DaylitAreaCurrent[1] = 1
+   DaylitAreaCurrent[3] = 1
+   RoofZoneErrorCode = 4
+   ..
+
+ZnGrpWiz   "Ground Floor Core"  
+   ShortName = "GndCor"
+   ..
+
+ZnGrpWiz   "Ground Floor Perimeter"  
+   ShortName = "GndPrm"
+   ..
+
+ZnGrpWiz   "Top Floor Core"  
+   ShortName = "TopCor"
+   ..
+
+ZnGrpWiz   "Top Floor Perimeter"  
+   ShortName = "TopPrm"
+   ..
+
+DiagData   "Bldg Envelope & Loads 1 Diag Data"  
+   ..
+
+HVACWiz   "HVAC System 1"  
+   ..
+
+DXCWWiz   "Water-Cooled DX System"  
+   ..
+
+WSECWWiz   "Wtr-Side Econo System"  
+   ..
+
+WLHPWiz   "WSHP System"  
+   ..
+
+GSHPWiz   "GSHP System"  
+   ..
+
+PrimWiz   "Primary HVAC Plant"  
+   ..
+
+DHWWiz   "DHW Plant 1"  
+   ..
+
+
+END_OF_FILE
